@@ -1,0 +1,6 @@
+npm i react-circular-progressbar
+recharts.org
+
+https://mui.com/material-ui/material-icons/?theme=Outlined&query=Keyboard&selected=KeyboardControlKeyOutlined
+
+npm i react-circular-progressbar

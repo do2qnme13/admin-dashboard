@@ -1,0 +1,93 @@
+.sidebar {
+  flex: 1;
+  border-right: 0.5px solid rgb(237, 235, 235);
+  min-height: 100vh;
+  background-color: white;
+
+  .top {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(237, 235, 235);
+
+    .logo {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: purple;
+    }
+  }
+
+  .center {
+    padding-left: 10px;
+
+    ul {
+      list-style: none;
+
+      .title {
+        font-size: 10px;
+        font-weight: bold;
+        color: #999;
+        margin-top: 15px;
+        margin-bottom: 10px;
+      }
+
+      li {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1rem;
+        padding: 5px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #ece8ff;
+        }
+
+        .icon {
+          font-size: 18px;
+          color: purple;
+        }
+
+        span {
+          font-size: 13px;
+          font-weight: 600;
+          color: grey;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    gap: 7px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+    .colorOption {
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:nth-child(1) {
+        background-color: whitesmoke;
+      }
+      &:nth-child(2) {
+        background-color: rgb(24, 23, 23);
+      }
+      &:nth-child(3) {
+        background-color: rgb(6, 8, 94);
+      }
+      &:nth-child(4) {
+        background-color: rgb(6, 94, 65);
+      }
+      &:nth-child(5) {
+        background-color: rgb(161, 120, 38);
+      }
+    }
+  }
+}

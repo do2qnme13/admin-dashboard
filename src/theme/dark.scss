@@ -1,0 +1,60 @@
+.app.dark {
+  background-color: #222;
+  color: rgb(156, 156, 156);
+
+  .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+
+  .table {
+    background-color: #222;
+
+    .tableCell {
+      color: grey;
+    }
+  }
+
+  .navbar {
+    background-color: #222;
+    border-color: #444;
+
+    .search {
+      border-color: grey;
+    }
+  }
+
+  .sidebar {
+    background-color: #222;
+    border-color: #444;
+
+    .top {
+      border-color: #444;
+
+      .logo {
+        color: #999;
+      }
+    }
+
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+
+        .icon {
+          color: #999;
+        }
+      }
+    }
+  }
+
+  .datatable {
+    .datagrid {
+      background-color: white;
+    }
+  }
+
+  input {
+    background-color: transparent;
+  }
+}
